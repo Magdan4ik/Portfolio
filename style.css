@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Helvetica Neue";
-	src:url(../fonts/HelveticaNeue.ttf);
+	src:url(fonts/HelveticaNeue.ttf);
 	font-style: normal;
 	font-weight: normal;
 }
@@ -50,7 +50,7 @@ img {
 }
 
 .header {
-	background: #373737 url('../img/bg-header.gif');
+	background: #373737 url('img/bg-header.gif');
 	border-bottom: 4px solid #242424;
 	padding-top: 25px;
 	min-height: 515px;
@@ -86,7 +86,7 @@ img {
 
 .header__nav ul li:after{
 	content: "";
-	background: url("../img/nav-sep.png") no-repeat 0 0;
+	background: url("img/nav-sep.png") no-repeat 0 0;
 	width: 2px;
 	height: 30px;
 	position: absolute;
@@ -117,7 +117,7 @@ img {
 }
 
 .header__search__form .search-ico{
-	background: url("../img/search-ico.png") no-repeat 0 0;
+	background: url("img/search-ico.png") no-repeat 0 0;
 	position: absolute;
 	top: 10px;
 	left: 7px;
@@ -155,7 +155,7 @@ img {
 
 .middle__item:after, .middle__item:before {
 	content: "";
-	background: url("../img/middle-item-shadow.png") no-repeat 0 0;
+	background: url("img/middle-item-shadow.png") no-repeat 0 0;
 	width: 15px;
 	height: 186px;
 	position: absolute;
@@ -186,7 +186,7 @@ img {
 }
 
 .middle__item .link-more {
-	background: url("../img/middle-item-divider.gif") repeat-x 0 0;
+	background: url("img/middle-item-divider.gif") repeat-x 0 0;
 	display: block;
     padding-top: 20px;
     margin-top: 35px;
