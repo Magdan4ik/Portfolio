@@ -181,7 +181,7 @@ img {
 	line-height: 16px;
 }
 
-p.gray {
+.gray {
 	color: #8e8e8e;
 }
 
@@ -200,6 +200,10 @@ p.gray {
 	padding-left: 25px;
 	color: #ff7373;
 }
+
+.rwork {
+	margin-bottom: 40px;
+} 
 
 .rwork__title {
 	color: #464646;
@@ -281,6 +285,67 @@ p.gray {
 	text-align: center;
 	color: #fff;
 }
+
+.footer {
+	background: #373737 url('img/bg-header.gif');
+	border-top: 4px solid #242424;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.footer__top .twitter-posts,
+.footer__top .flickr-img {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer__top .twitter-posts li {
+	margin-bottom: 15px;
+}
+
+.footer__top__title {
+	padding-bottom: 17px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #747474;
+	font-size: 16px;
+	font-family: "Helvetica Neue";
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+
+.footer__top__text {
+	margin-bottom: 5px;
+}
+
+.footer__top .flickr-img {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.footer__top .flickr-img li {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.footer__bottom {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 20px 0 10px 0;
+}
+
+
+.footer__bottom .footer-logo{
+	opacity: 0.4;
+}
+
+.footer__bottom__text {
+	margin-bottom: 5px;
+}
+
 
 /* 
 .container {
