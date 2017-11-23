@@ -78,7 +78,6 @@ img {
 	vertical-align: top;
 	margin-right: 20px;
 	position: relative;
-	margin-bottom: 20px;
 }
 
 
@@ -138,6 +137,7 @@ img {
 	border-radius: 10px;
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
 	padding: 0 15px 0 30px;
+	width: 100%;
 }
 
 .header__description h1 {
@@ -378,10 +378,18 @@ img {
 
 	.header__nav ul li {
 		margin-right: 10px;
+		margin-bottom: 20px;
 	}
 
 	.header__nav ul li::after {
 		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.carousel-indicators {
+		margin-bottom: -15px;
 	}
 }
 
@@ -420,11 +428,4 @@ img {
 		margin-bottom: 15px;
 	}
 
-}
-
-@media (min-width: 992px) {
-	
-	.carousel-indicators {
-		margin-bottom: -15px;
-	}
 }
